@@ -30,7 +30,7 @@ const TransactionSchema = new mongoose.Schema(
       type: String, 
       unique: true, 
       
-    }, // e.g., TX-164444000
+    }, 
     bankName: { 
       type: String
       

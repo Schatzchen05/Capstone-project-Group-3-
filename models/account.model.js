@@ -11,7 +11,7 @@ const AccountSchema = new mongoose.Schema({
     type: String, 
     required: true, 
     unique: true,
-    index: true // Makes searching by phone number instant
+    index: true
   },
   balance: { 
     type: mongoose.Schema.Types.Decimal128, 
