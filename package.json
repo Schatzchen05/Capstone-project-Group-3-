@@ -1,5 +1,5 @@
 {
-  "name": "capstone_backend",
+  "name": "digi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -24,7 +24,9 @@
     "joi": "^18.0.2",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.2.0",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "express-rate-limit": "^8.2.1",
+    "nodemailer": "^8.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
